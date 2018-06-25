@@ -1,0 +1,26 @@
+{
+    "name": "cintia/gerenciamento-projetos",
+    "authors": [
+        {
+            "name": "Cintia Ribeiro",
+            "email": "cintiarbrandao@gmail.com"
+        }
+    ],
+    "require": {
+        "pimple/pimple": "^3.2"
+    },
+    "autoload":{
+        "psr-4":{
+            "Projeto\\Gerenciamento\\":"src",
+            "APP\\":"app"
+        }
+    },
+    "scripts":{
+        "server":"php -S localhost:8080 -t public"
+    },
+    "config": {
+
+        "process-timeout": 0
+
+    }
+}
